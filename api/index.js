@@ -23,7 +23,7 @@ connectDB()
 // List of allowed origins
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://task-portal-frontend.vercel.app"
+  "https://submit-hub.vercel.app"
 ];
 
 // CORS configuration
