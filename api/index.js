@@ -23,8 +23,9 @@ connectDB()
 // List of allowed origins
 const allowedOrigins = [
   "http://localhost:5173",
-  "task-portal-frontend-git-main-zainkhan25s-projects.vercel.app",
-  "task-portal-frontend-qdwtcr0k4-zainkhan25s-projects.vercel.app"
+  "https://task-portal-frontend-qdwtcr0k4-zainkhan25s-projects.vercel.app",
+  "https://task-portal-frontend-git-main-zainkhan25s-projects.vercel.app",
+  "https://task-portal-frontend.vercel.app"
 ];
 
 // CORS configuration
