@@ -30,7 +30,16 @@ const allowedOrigins = [
 
 // CORS configuration
 const corsOptions = {
-  origin: (origin, callback) => {
+/*************  ✨ Windsurf Command ⭐  *************/
+  /**
+   * Checks if the request origin is in the allowed origins list
+   * If the origin is in the list or if there is no origin (i.e., a same-origin request),
+   * the callback is called with null as the first argument and true as the second argument.
+   * Otherwise, the callback is called with an error as the first argument and false as the second argument.
+   * @param {string} origin - The origin of the request
+   * @param {function} callback - The callback function to call with the result
+   */
+/*******  cc49330f-3138-45f2-b75f-9fec245abda2  *******/  origin: (origin, callback) => {
     // Check if the request origin is in the allowed origins list
     if (allowedOrigins.includes(origin) || !origin) {
       callback(null, true);
